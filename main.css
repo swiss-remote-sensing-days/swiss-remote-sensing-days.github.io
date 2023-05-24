@@ -1,0 +1,80 @@
+/* general */
+html {scroll-behavior: smooth;}
+body {font-family: 'Titillium Web', sans-serif; color: #454545; margin: 0; text-align: justify;}
+
+
+/* navigation */
+#navbar {
+    background-color: #f1f1f1; 
+    align-items:center; 
+    display: flex;
+    padding: 1rem;
+    margin:0 auto;
+    justify-content: space-between;
+}
+#navbar a {text-decoration:none;}
+.menu {
+    font-size: 1.2em;
+}
+.menu a {
+    color: #454545;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+.menu a:hover:not(.active) { padding: 14px 16px; background-color: white; }
+
+
+/* logo */
+#logo { display: flex; align-items:center; padding-right: 3em }
+#logo img { width: 3.6rem; }
+#logotext { margin: 0 1rem;}
+#logotext h1 {font-size:22pt;margin-block-start: 0; margin-block-end: 0;}
+#logotext h3 {font-size:12pt;margin-block-start: 0; margin-block-end: 0;}
+
+
+/* header */
+h1 {  font-size:38pt;color: #333; font-weight: bold;}
+h2 {  font-size:30pt;color: #333; font-weight: bold;}
+h3 { color: #555; font-weight: normal;}
+
+
+/* content */
+#content { max-width: 50em; margin:0 auto; padding: 1rem; font-size:14pt;}
+#content a {
+    color: #454545;
+    text-decoration: none;
+}
+#content a:visited {
+  color: green;
+}
+#content a:hover {
+  color: red;
+}
+#content a:active {
+  color: blue;
+}
+#summary {
+  font-size: 24pt;
+}
+
+/* special */
+img { max-width: 50em; width: 100%; display: block}
+td { padding: 0.5em 0.5em; }
+
+
+
+#profiles { margin: 0 auto; text-align: center;}
+#profiles img { max-width: 120px; margin: 0 auto;}
+.profile { border: 3px solid green; border-radius: 50%; }
+
+#sponsors { margin: 0 auto; text-align: center; }
+#partners {flex-wrap: wrap; display: flex;}
+#partners img { width: auto; padding: 1em}
+.column {float: left; width: 33%;}
+
+.schedule, .schedule th, .schedule td{ border: 1px solid lightgray; border-collapse: collapse;}
+.schedule th { font-size: 1.25em; }
+
+
+
