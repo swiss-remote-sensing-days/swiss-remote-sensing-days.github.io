@@ -42,11 +42,11 @@ h3 { color: #555; font-weight: normal;}
 /* content */
 #content { max-width: 50em; margin:0 auto; padding: 1rem; font-size:14pt;}
 #content a {
-    color: #454545;
+    color: blue;
     text-decoration: none;
 }
 #content a:visited {
-  color: green;
+  color: blue;
 }
 #content a:hover {
   color: red;
